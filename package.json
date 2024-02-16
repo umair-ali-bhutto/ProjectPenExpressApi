@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "Simple Express API For My Testing Purpose",
   "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
