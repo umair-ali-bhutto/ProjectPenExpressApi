@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 app.get('/test', (req, res) => {
   const data = [{ message: 'Hello, this is your API!' }];
-  res.json(JSON.stringify(data));
+  res.json(data);
 });
 
 app.listen(port, () => {
