@@ -7,6 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/test', (req, res) => {
+  console.log(`GET CALLED`);
   const data = [{ message: 'Hello, this is your API!' }];
   res.json(data);
 });
